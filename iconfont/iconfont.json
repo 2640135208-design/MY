@@ -1,0 +1,79 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1111341",
+      "name": "世界",
+      "font_class": "shijie",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "15838453",
+      "name": "customer-service",
+      "font_class": "customer-service",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    },
+    {
+      "icon_id": "15838472",
+      "name": "email",
+      "font_class": "email",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    },
+    {
+      "icon_id": "15838544",
+      "name": "telephone",
+      "font_class": "telephone",
+      "unicode": "e680",
+      "unicode_decimal": 59008
+    },
+    {
+      "icon_id": "47042989",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "10225",
+      "unicode_decimal": 66085
+    },
+    {
+      "icon_id": "47042990",
+      "name": "收回",
+      "font_class": "shouhui",
+      "unicode": "10226",
+      "unicode_decimal": 66086
+    },
+    {
+      "icon_id": "47042994",
+      "name": "向后",
+      "font_class": "xianghou",
+      "unicode": "10227",
+      "unicode_decimal": 66087
+    },
+    {
+      "icon_id": "47042995",
+      "name": "向右",
+      "font_class": "xiangyou",
+      "unicode": "10228",
+      "unicode_decimal": 66088
+    },
+    {
+      "icon_id": "47042998",
+      "name": "向左",
+      "font_class": "xiangzuo",
+      "unicode": "10229",
+      "unicode_decimal": 66089
+    },
+    {
+      "icon_id": "47043001",
+      "name": "向前",
+      "font_class": "xiangqian",
+      "unicode": "1022a",
+      "unicode_decimal": 66090
+    }
+  ]
+}

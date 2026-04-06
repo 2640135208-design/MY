@@ -1,0 +1,114 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "77156",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "f0106",
+      "unicode_decimal": 983302
+    },
+    {
+      "icon_id": "1382585",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "2290381",
+      "name": "右上箭头",
+      "font_class": "arrow-right-top",
+      "unicode": "e781",
+      "unicode_decimal": 59265
+    },
+    {
+      "icon_id": "11873692",
+      "name": "圆圈",
+      "font_class": "yuanquan",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "12975027",
+      "name": "天猫",
+      "font_class": "tianmao",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "15603085",
+      "name": "竖线",
+      "font_class": "shuxian",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "18166694",
+      "name": "抖音",
+      "font_class": "douyin",
+      "unicode": "e8db",
+      "unicode_decimal": 59611
+    },
+    {
+      "icon_id": "18166714",
+      "name": "支付,京东",
+      "font_class": "pay-jingdong",
+      "unicode": "e8dd",
+      "unicode_decimal": 59613
+    },
+    {
+      "icon_id": "18166723",
+      "name": "拼多多",
+      "font_class": "pinduoduo",
+      "unicode": "e8df",
+      "unicode_decimal": 59615
+    },
+    {
+      "icon_id": "30070193",
+      "name": "下箭头",
+      "font_class": "xiajiantoucu",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "42577636",
+      "name": "快手-copy",
+      "font_class": "kuaishou3",
+      "unicode": "e67f",
+      "unicode_decimal": 59007
+    },
+    {
+      "icon_id": "44840405",
+      "name": "视频号",
+      "font_class": "shipinhao",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "44895379",
+      "name": "B站",
+      "font_class": "Bzhan",
+      "unicode": "ea4a",
+      "unicode_decimal": 59978
+    },
+    {
+      "icon_id": "44899609",
+      "name": "小红书-copy",
+      "font_class": "redbook",
+      "unicode": "e502",
+      "unicode_decimal": 58626
+    },
+    {
+      "icon_id": "46049417",
+      "name": "小程序",
+      "font_class": "a-xiaochengxupoppy_icon_small_program",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    }
+  ]
+}
