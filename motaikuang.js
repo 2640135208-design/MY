@@ -8,6 +8,11 @@
             // 检查模态框是否关闭
             if(!modal.classList.contains('show-modal') && video){
                 video.pause();
+                // 恢复背景滑动
+                document.body.style.overflow = '';
+            } else {
+                // 禁用背景滑动
+                document.body.style.overflow = 'hidden';
             }
         }
         clickBtn.addEventListener('click', toggleModal);

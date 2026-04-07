@@ -446,7 +446,6 @@ input[type="radio"] {
   top: 50%;
   transform: translatey(-50%);
   width: 100%;
-  z-index: 100;
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
@@ -1189,22 +1188,34 @@ input[type="radio"] {
     z-index: 11;
 }
 
-.box-img .img11:hover .box1,
-.box-img .img2:hover .box2,
-.box-img .img3:hover .box3,
-.box-img .img4:hover .box4,
-.box-img .img5:hover .box5,
-.box-img .img6:hover .box6 {
+.box-img .img11 img:hover ~ .box1,
+.box-img .img11 .box1:hover,
+.box-img .img2 img:hover ~ .box2,
+.box-img .img2 .box2:hover,
+.box-img .img3 img:hover ~ .box3,
+.box-img .img3 .box3:hover,
+.box-img .img4 img:hover ~ .box4,
+.box-img .img4 .box4:hover,
+.box-img .img5 img:hover ~ .box5,
+.box-img .img5 .box5:hover,
+.box-img .img6 img:hover ~ .box6,
+.box-img .img6 .box6:hover {
     opacity: 0;
     transition: .5s;
 }
 
-.box-img .img11:hover button,
-.box-img .img2:hover button,
-.box-img .img3:hover button,
-.box-img .img4:hover button,
-.box-img .img5:hover button,
-.box-img .img6:hover button {
+.box-img .img11 img:hover + button,
+.box-img .img11 .box1:hover + img + button,
+.box-img .img2 img:hover + button,
+.box-img .img2 .box2:hover + img + button,
+.box-img .img3 img:hover + button,
+.box-img .img3 .box3:hover + img + button,
+.box-img .img4 img:hover + button,
+.box-img .img4 .box4:hover + img + button,
+.box-img .img5 img:hover + button,
+.box-img .img5 .box5:hover + img + button,
+.box-img .img6 img:hover + button,
+.box-img .img6 .box6:hover + img + button {
     opacity: 1;
     transition: .3s;
     visibility: visible;
@@ -1234,7 +1245,7 @@ input[type="radio"] {
     width: 180px;
     height: 42px;
     position: absolute;
-    bottom: 90px;
+    top: 250px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 99;
@@ -1252,35 +1263,33 @@ input[type="radio"] {
         transform: translateX(8px);
     } 
 
-.box-img h5 {
-    font-size: 22px;
-    font-weight: 400;
+.text7 {
     width: 235px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
     cursor: pointer;
 }
 
-.box-img p {
+.text7 h5 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text7 p {
     font-size: 16px;
-    font-weight: 400;
-    margin-top: 10px;
-    width: 235px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    cursor: pointer;
 }
 
-.box-img h5:hover {
+.text7:hover h5,
+.text7:hover p {
     color: #ff3333;
     transition: .2s;
-}
-
-.box-img p:hover {
-    color: #ff3333;
-    transition: .2s;
+    overflow: visible;
+    white-space: wrap;
 }
 
 /* part8 */
@@ -1328,8 +1337,6 @@ input[type="radio"] {
 .eight .huiyuan .item img {
     width: 86.94px;
 }
-
-
 
 .eight button {
     font-size: 16px;
